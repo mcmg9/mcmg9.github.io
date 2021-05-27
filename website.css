@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "digital-7";
+  src: url("digital-7.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ARVOBOLD";
+  src: url("Arvo-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ARVONORM";
+  src: url("Arvo-Regular.ttf") format("truetype");
+}
+.digital-font {
+  font-family: "digital-7", sans-serif;
+  color: red;
+  font-size: 400%;
+  display:inline;
+  width:200px;
+  text-align: center;
+}
+.digital-box {
+  background-color: black ;
+  margin: auto;
+  width: 45%;
+  border: 5px solid rgb(75, 73, 73);
+  padding: 10px;
+}
+.header-font {
+  font-family: "ARVOBOLD", sans-serif;
+  /* -webkit-text-stroke: 2px black; */
+  color: #6FC4D5;
+  font-size: 500%;
+  display:inline;
+  width:200px;
+  text-align: center;
+  margin-right: 600px;
+}
+.header-box {
+  background-color: rgb(44, 36, 36);
+  margin: auto;
+  padding: 10px;
+}
+.body-box {
+  background-color: rgb(182, 179, 179);
+}
+.countdown-font {
+  font-family: "ARVOBOLD", sans-serif;
+  /* -webkit-text-stroke: 2px black; */
+  color: #000000;
+  font-size: 300%;
+}
+.norm-font {
+  font-family: "ARVONORM", sans-serif;
+  /* -webkit-text-stroke: 2px black; */
+  color: #000000;
+  font-size: 150%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid rgb(75, 73, 73);
+}
+.header-button {
+  background-color: #6FC4D5;
+  border-color: rgb(182, 179, 179);
+  padding: 15px 32px;
+  font-family: "ARVOBOLD", sans-serif;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+
+
+.button {
+  font-family: "ARVONORM", sans-serif;
+  font-size: 130%;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 16px 48px 16px 48px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
