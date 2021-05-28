@@ -1,14 +1,14 @@
 @font-face {
   font-family: "digital-7";
-  src: url("digital-7.ttf") format("truetype");
+  src: url("fonts/digital-7.ttf") format("truetype");
 }
 @font-face {
   font-family: "ARVOBOLD";
-  src: url("Arvo-Bold.ttf") format("truetype");
+  src: url("fonts/Arvo-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "ARVONORM";
-  src: url("Arvo-Regular.ttf") format("truetype");
+  src: url("fonts/Arvo-Regular.ttf") format("truetype");
 }
 .digital-font {
   font-family: "digital-7", sans-serif;
